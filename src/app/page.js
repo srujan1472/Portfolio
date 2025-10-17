@@ -158,8 +158,8 @@ export default function Home() {
                 >
                   <motion.div
                     className="w-6 h-6 text-gray-600 dark:text-gray-400"
-                    whileHover={{ rotate: 360 }}
-                    transition={{ duration: 0.5 }}
+                    // whileHover={{ rotate: 360 }}
+                    // transition={{ duration: 0.5 }}
                   >
                     <svg fill="currentColor" viewBox="0 0 24 24">
                       <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
@@ -178,8 +178,8 @@ export default function Home() {
                 >
                   <motion.div
                     className="w-6 h-6 text-gray-600 dark:text-gray-400"
-                    whileHover={{ rotate: 360 }}
-                    transition={{ duration: 0.5 }}
+                    // whileHover={{ rotate: 360 }}
+                    // transition={{ duration: 0.5 }}
                   >
                     <svg fill="currentColor" viewBox="0 0 24 24">
                       <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
@@ -198,8 +198,8 @@ export default function Home() {
                 >
                   <motion.div
                     className="w-6 h-6 text-gray-600 dark:text-gray-400"
-                    whileHover={{ rotate: 360 }}
-                    transition={{ duration: 0.5 }}
+                    // whileHover={{ rotate: 360 }}
+                    // transition={{ duration: 0.5 }}
                   >
                     <svg fill="currentColor" viewBox="0 0 24 24">
                       <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z" />
@@ -256,7 +256,7 @@ export default function Home() {
                       className="text-gray-400"
                       variants={fadeInUp}
                     >
-                      February 2024 - Present
+                      February 2024 - August 2025(waiting for result)
                     </motion.p>
                   </motion.div>
                   <motion.div className="flex flex-col items-start md:items-end space-y-2" variants={staggerContainer}>
@@ -270,7 +270,7 @@ export default function Home() {
                     <motion.span
                       className="bg-gray-600 text-white px-4 py-2 rounded-full text-sm font-medium"
                       variants={scaleIn}
-                      whileHover={{ scale: 1.1, backgroundColor: "#2563eb" }}
+                      whileHover={{ scale: 1.1 }}
                     >
                       Completed
                     </motion.span>
@@ -315,7 +315,7 @@ export default function Home() {
                     <motion.span
                       className="bg-green-400/40 backdrop-blur-lg text-white px-4 py-2 rounded-full text-sm font-semibold"
                       variants={scaleIn}
-                      whileHover={{ scale: 1.1, backgroundColor: "#2563eb" }}
+                      whileHover={{ scale: 1.1 }}
                     >
                       CGPA: 6.86
                     </motion.span>
@@ -493,7 +493,7 @@ export default function Home() {
               Personal Projects
             </motion.h2>
 
-            <motion.div className="grid grid-cols-1 lg:grid-cols-2 gap-8" variants={staggerContainer}>
+            <motion.div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16" variants={staggerContainer}>
               {/* Employee Gate Pass */}
               <motion.div
                 className="rounded-2xl p-8 cursor-pointer group relative"
@@ -743,7 +743,7 @@ export default function Home() {
               variants={staggerContainer}
             >
               <motion.div
-                className="bg-[#111111] border border-gray-700 text-white px-6 py-3 rounded-full text-lg font-medium"
+                className="bg-[#111111] border border-gray-700 mr-2 text-white px-6 py-3 rounded-full text-lg font-medium"
                 variants={scaleIn}
                 whileHover={{
                   scale: 1.1,
@@ -755,7 +755,7 @@ export default function Home() {
               </motion.div>
 
               <motion.div
-                className="bg-[#111111] border border-gray-700 text-white px-6 py-3 rounded-full text-lg font-medium"
+                className="bg-[#111111] border border-gray-700 mr-2 ml-2 text-white px-6 py-3 rounded-full text-lg font-medium"
                 variants={scaleIn}
                 whileHover={{
                   scale: 1.1,
@@ -767,7 +767,7 @@ export default function Home() {
               </motion.div>
 
               <motion.div
-                className="bg-[#111111] border border-gray-700 text-white px-6 py-3 rounded-full text-lg font-medium"
+                className="bg-[#111111] border border-gray-700 mr-2 ml-2 text-white px-6 py-3 rounded-full text-lg font-medium"
                 variants={scaleIn}
                 whileHover={{
                   scale: 1.1,
@@ -779,7 +779,7 @@ export default function Home() {
               </motion.div>
 
               <motion.div
-                className="bg-[#111111] border border-gray-700 text-white px-6 py-3 rounded-full text-lg font-medium"
+                className="bg-[#111111] border border-gray-700 mr-2 ml-2 text-white px-6 py-3 rounded-full text-lg font-medium"
                 variants={scaleIn}
                 whileHover={{
                   scale: 1.1,
@@ -820,14 +820,14 @@ export default function Home() {
                 variants={fadeInUp}
               >
                 <div className="text-2xl text-white font-semibold mb-2">English</div>
-                <div className="text-xl text-gray-400 italic">Limited Working Proficiency</div>
+                <div className="text-xl text-gray-400 italic">Full Professional Proficiency</div>
               </motion.div>
 
               <motion.div
                 variants={fadeInUp}
               >
                 <div className="text-2xl text-white font-semibold mb-2">Hindi</div>
-                <div className="text-xl text-gray-400 italic">Full Professional Proficiency</div>
+                <div className="text-xl text-gray-400 italic">Limited Working Proficiency</div>
               </motion.div>
             </motion.div>
           </motion.div>
@@ -852,7 +852,7 @@ export default function Home() {
               variants={staggerContainer}
             >
               <motion.div
-                className="bg-[#111111] border border-gray-700 text-white px-6 py-3 rounded-full text-lg font-medium"
+                className="bg-[#111111] border border-gray-700 mr-2 text-white px-6 py-3 rounded-full text-lg font-medium"
                 variants={scaleIn}
                 whileHover={{
                   scale: 1.1,
@@ -865,7 +865,7 @@ export default function Home() {
               </motion.div>
 
               <motion.div
-                className="bg-[#111111] border border-gray-700 text-white px-6 py-3 rounded-full text-lg font-medium"
+                className="bg-[#111111] border border-gray-700 ml-2 text-white px-6 py-3 rounded-full text-lg font-medium"
                 variants={scaleIn}
                 whileHover={{
                   scale: 1.1,
@@ -880,6 +880,26 @@ export default function Home() {
           </motion.div>
 
         </div>
+        
+        {/* Footer Section */}
+        <footer className="py-6 border-t border-gray-800">
+          <div className="max-w-5xl mx-auto px-6 flex justify-between items-center">
+            <div className="text-gray-400">
+              © {new Date().getFullYear()} Srujan K R
+            </div>
+            <motion.button
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              aria-label="Scroll to top"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+              </svg>
+            </motion.button>
+          </div>
+        </footer>
       </main>
     </>
   );
