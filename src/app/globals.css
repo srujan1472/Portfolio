@@ -18,10 +18,10 @@ body {
 }
 
 /* Modern dark black background */
-/* .gradient-bg {
+.gradient-bg {
   background: #000000;
   position: relative;
-} */
+}
 
 .gradient-bg::before {
   content: '';
@@ -45,8 +45,8 @@ body {
   z-index: 0;
   pointer-events: none;
   overflow: hidden;
-  /* background-color: #000000; */
-  background-image: url('/Image2.png');
+  background-color: #000000;
+  /* background-image: url('/Image2.png'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
