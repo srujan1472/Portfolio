@@ -128,8 +128,7 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.8 }}
               >
-                I'm a fresher pursuing my Master's in Computer Application with strong expertise in web development.
-                I'm eager to bring fresh perspectives and innovative solutions to challenging projects.
+                I'm a fresher pursued my maters's in computer application, where I've developed strong skills in software development. I'm job-ready and eager to bring my fresh perspective and technical knowledge to innovative projects, contributing effectively to dynamic team. 
               </motion.p>
             </motion.div>
           </motion.div>
