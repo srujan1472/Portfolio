@@ -92,7 +92,7 @@ export default function Home() {
           >
             {/* Profile Image */}
             <motion.div
-              className="w-44 h-52 rounded-2xl overflow-hidden  p-1 flex-shrink-0"
+              className="w-52 h-52 rounded-2xl overflow-hidden  p-1 flex-shrink-0"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
@@ -101,7 +101,7 @@ export default function Home() {
             >
               <div className="w-full h-full rounded-2xl overflow-hidden">
                 <img
-                  src="/Image.jpg"
+                  src="/Image4.jpg"
                   alt="Srujan K R"
                   className="w-full h-full object-cover"
                 />
@@ -128,7 +128,8 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.8 }}
               >
-                I'm a fresher pursued my maters's in computer application, where I've developed strong skills in software development. I'm job-ready and eager to bring my fresh perspective and technical knowledge to innovative projects, contributing effectively to dynamic team. 
+                I'm a fresher pursued my maters's in computer application, where I've developed strong skills in software development. 
+                I'm job-ready and eager to bring my fresh perspective and technical knowledge to innovative projects, contributing effectively to dynamic team. 
               </motion.p>
             </motion.div>
           </motion.div>
@@ -595,7 +596,7 @@ export default function Home() {
 
             {/* Third Project - Full Width */}
             <motion.div
-              className="mt-8 rounded-2xl p-8 cursor-pointer group relative"
+              className="mt-8 w-[48%] my-2 rounded-2xl p-8 cursor-pointer group relative"
               variants={fadeInUp}
               whileHover={{
                 scale: 1.01,
