@@ -506,7 +506,7 @@ export default function Home() {
                   transition: { duration: 0.3 }
                 }}
                 whileTap={{ scale: 0.98 }}
-                onClick={() => window.open('YOUR_GITHUB_LINK_1', '_blank')}
+                onClick={() => window.open('https://github.com/srujan1472/Employee_gatepass', '_blank')}
                 style={{
                   background: "#111111", /* dark grey */
                   border: "1px solid #2A2A2A",
